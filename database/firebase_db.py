@@ -5,7 +5,7 @@ from configs.firebase_config_example import firebaseConfig
 
 # Initialisation de Firebase Admin SDK
 if not firebase_admin._apps:
-    cred = credentials.Certificate("./todolist-ab703-firebase-adminsdk-g0omu-1421a4760d.json")
+    cred = credentials.Certificate("../configs/todolist-ab703-firebase-adminsdk-g0omu-1421a4760d.json")
     firebase_admin.initialize_app(cred)
 
 # Initialisation de Pyrebase
