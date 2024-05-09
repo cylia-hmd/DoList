@@ -1,0 +1,4 @@
+.venv
+_pycache_
+configs/todolist-ab703-firebase-adminsdk-g0omu-1421a4760d.json
+.env
